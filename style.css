@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.navColors:hover {
+  color:rgb(202, 169, 60) !important;
+}
+
+.buttonColor:hover {
+  color: white !important;
+}
+
+.fondoNav {
+  background-image: url(/imagenes/colorNav.jpg);
+}
+
+.body-hiscore {
+  background-image: url(/imagenes/fondoHiScore.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;  
+}
+
+.body-index {
+  background-image: url(/imagenes/fondoIndex3.webp);
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;    
+}
+
+.body-membresia {
+  background-image: url(/imagenes/fondoMembresia.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;    
+}
+
+.body-clanes {
+  background-image: url(/imagenes/fondoClanes.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;  
+}
+
+.body-descarga {
+  background-image: url(/imagenes/fondoDescarga.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;   
+}
+
+.body-worldmap {
+  background-image: url(/imagenes/fondoWorldMap.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;    
+}
+
+.search-input {
+  text-indent: 5px;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+
+.fondoTitulos {
+  background-color: rgb(70, 88, 88, 80%);
+}
+
+.colorMembresia {
+  background-color: rgb(27, 46, 46,80%);
+}
+
+.footer {
+  background-image: url(/imagenes/detalleFooter.jpg);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+  margin-top: 10rem;
+  bottom: 0;
+}
+
+.footerDescarga {
+  position: absolute;
+}
+
+
+
+
+

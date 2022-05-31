@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membresia</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="body-membresia">
+    <nav
+      class="border-bottom border-white p-3 bg-dark text-white d-flex align-items-center justify-content-between fondoNav"
+    >
+      <div class="d-flex w-50 justify-content-between h5">
+        <a href="index.html" class="text-white text-decoration-none">Home</a>
+        <a
+          href="descarga.html"
+          class="text-white text-decoration-none navColors"
+        >
+          Descarga</a
+        >
+        <a href="clanes.html" class="text-white text-decoration-none navColors">
+          Clanes</a
+        >
+        <a
+          href="hiScore.html"
+          class="text-white text-decoration-none navColors"
+        >
+          HiScore</a
+        >
+        <a
+          href="galeria.html"
+          class="text-white text-decoration-none navColors"
+        >
+          Galeria</a
+        >
+        <a
+          href="worldMap.html"
+          class="text-white text-decoration-none navColors"
+        >
+          World Map</a
+        >
+      </div>
+
+      <form
+        role="search"
+        class="d-flex flex-row flex-nowrap w-25 justify-content-between"
+      >
+        <input
+          type="search"
+          class="search-input"
+          placeholder="Search..."
+          aria-label="Search"
+        />
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">
+            Login
+          </button>
+          <button type="button" class="btn btn-warning">Register</button>
+        </div>
+      </form>
+    </nav>
+
+    <h1 class="text-center text-warning p-3">Membresia</h1>
+
+    <h2 class="text-center text-info p-1">Metodos de Pago</h2>
+
+    <div
+      class="border border-white w-25 text-center text-white font-weight-bold p-3 mt-5 text-uppercase p-3 container rounded-pill colorMembresia"
+    >
+      <input type="radio" /> T.de Credito
+      <br />
+      <input class="mb-1" type="text" />
+      <br />
+      <input class="mb-1" type="text" />
+      <br />
+      <input class="mt-2" type="radio" /> Cupon.Desc
+      <br />
+      <input class="mt-2" type="radio" />Pago facil
+      <br />
+      <input class="mt-2" type="radio" />RapiPago
+      <br />
+      <a href="login.html">
+        <button class="p-1 mt-2">Confirmar</button>
+      </a>
+      <a href="login.html">
+        <button class="p-1 mt-2">Cancelar</button>
+      </a>
+    </div>
+    <div
+      class="border border-white w-25 text-center text-white font-weight-bold p-3 mt-5 text-uppercase p-3 container rounded-pill colorMembresia"
+    >
+      <label>E-Mail</label>
+      <br />
+      <input class="p-1" type="text" placeholder="Ingrese Email" />
+      <br />
+      <label>Nombre</label>
+      <br />
+      <input class="p-1" type="text" placeholder="Nombre del personaje" />
+      <br />
+      <label class="mt-1">Contraseña</label>
+      <br />
+      <input
+        class="p-1"
+        type="password"
+        placeholder="Contraseña del personaje"
+      />
+      <br />
+      <label class="mt-1">Repetir Contraseña</label>
+      <br />
+      <input
+        class="p-1 mb-2"
+        type="password"
+        placeholder="Repetir contraseña"
+      />
+    </div>
+
+    <footer class="footer border-top border-white">
+      <img src="./imagenes/lenguajes.JPG" alt="lenguaje" class="p-3" />
+      <ul>
+        <li>Politica y Privacidad</li>
+        <li>Terminos y Condiciones</li>
+        <li>Cookies</li>
+      </ul>
+    </footer>
+  </body>
+</html>
