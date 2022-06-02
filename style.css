@@ -58,6 +58,29 @@
   background-attachment: fixed;    
 }
 
+.jugarAnimacion {
+  height: 55px;
+  width: 220px;
+  transition: 0.6s;
+  text-align: center;
+}
+
+.jugarAnimacion:hover {
+  height: 65px;
+  width: 250px;
+  background-color: rgb(197, 132, 34);
+  font-size: larger;
+}
+
+.galeriaTransition {
+  filter: blur(5px);
+  transition: 0.5s;
+}
+
+.galeriaTransition:hover {
+  filter: none;
+}
+
 .search-input {
   text-indent: 5px;
   border-radius: 5px;
@@ -86,8 +109,5 @@
 .footerDescarga {
   position: absolute;
 }
-
-
-
 
 
